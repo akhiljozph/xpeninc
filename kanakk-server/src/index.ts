@@ -2,8 +2,10 @@ import Koa from "koa";
 import Router from "koa-router";
 
 import bodyParser from "koa-bodyparser";
+import helmet from "koa-helmet";
 import json from "koa-json";
 import logger from "koa-logger";
+import ratelimit from 'koa-ratelimit';
 
 import sequelize from "./database/index";
 
@@ -33,6 +35,17 @@ router.get("/", async (ctx, next) => {
 app.use(json());
 app.use(logger());
 app.use(bodyParser());
+app.use(helmet());
+
+const db = new Map();
+
+app.use(ratelimit({
+    driver: 'memory',
+    db: db,
+    duration: 60000,
+    max: 100,
+    id: (ctx) => ctx.ip
+}));
 
 app.use(router.routes()).use(router.allowedMethods());
 
