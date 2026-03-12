@@ -2,6 +2,7 @@
     "version": "2.0.2",
     "compilerOptions": {
         "outDir": "./dist",
+        "rootDir": "./src",
         "lib": [
             "es6"
         ],
@@ -11,7 +12,8 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
     },
     "include": [
         "./src/**/*"

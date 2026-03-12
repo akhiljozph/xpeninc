@@ -5,7 +5,23 @@ import bodyParser from "koa-bodyparser";
 import json from "koa-json";
 import logger from "koa-logger";
 
+import sequelize from "./database/index";
+
 const app = new Koa();
+
+async function start() {
+    try {
+        await sequelize.authenticate();
+
+        app.listen(3000, () => {
+            console.log("Koa started at 3000!");
+        });
+    } catch (error) {
+        console.error('Unable to connect to database:', error);
+        process.exit(1);
+    }
+}
+
 const router = new Router();
 
 router.get("/", async (ctx, next) => {
@@ -20,6 +36,4 @@ app.use(bodyParser());
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3000, () => {
-    console.log("Koa started at 3000!");
-});
+start();
