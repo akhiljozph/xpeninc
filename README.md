@@ -31,7 +31,6 @@ Koa.js
 - Learning resources
 
 **ORM**  
-TypeORM
+
 
 **Database**  
-MariaDB
