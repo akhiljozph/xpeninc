@@ -7,7 +7,7 @@
 ## Tech Stack
 
 **Frontend**  
-React.js, TailwindCSS
+React.js, TailwindCSS, Angular
 
 **Backend**  
 Koa.js
