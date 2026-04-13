@@ -4,6 +4,9 @@
 
 ---
 
+## Architecture
+Monorepo using nx.
+
 ## Tech Stack
 
 **Frontend**  
