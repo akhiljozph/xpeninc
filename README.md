@@ -1,13 +1,13 @@
 # Xpeninc
 
-**The smart manager for your income and expenditure.**
+**The smart manager for your expenditure and income.**
 
 ---
 
 ## Tech Stack
 
 **Frontend**  
-React.js, TailwindCSS, Angular
+Angular, React.js
 
 **Backend**  
 Koa.js

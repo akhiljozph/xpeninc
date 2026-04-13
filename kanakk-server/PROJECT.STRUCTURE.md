@@ -1,1 +1,0 @@
-REQUEST -> Middleware -> Routes -> Controller -> Service -> Repository -> Model -> DB
