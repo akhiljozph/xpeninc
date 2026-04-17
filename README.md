@@ -10,7 +10,7 @@ Monorepo using nx.
 ## Tech Stack
 
 **Frontend**  
-Angular, React.js
+Angular, React.js, Redux
 
 **Backend**  
 Koa.js
