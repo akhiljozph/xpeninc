@@ -10,13 +10,15 @@ Monorepo using nx.
 ## Tech Stack
 
 **Frontend**  
-Angular, React.js, Redux
+ - Angular
+ - React.js
+ - Redux
 
 **Backend**  
-Koa.js
+- Koa.js
 
 **ORM**
-Sequelize
+- Sequelize
 
 **Database**
-PostgreSQL
+- PostgreSQL
