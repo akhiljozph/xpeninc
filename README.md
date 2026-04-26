@@ -113,6 +113,17 @@ This is a smart application to handle income and expenses.
 
 ## Feature modules of this app.
 
-### Summary Module.
+### module name - Dashboard.
+
+### Module name - Summary.
 
 This module offers the user to track his income and expenses of the registered accounts. If the user have multiple accounts, whole details can be viewed in a single window.
+
+Actions
+
+When user clicks the summary tab. A list loads where all of the income and expenses are shown. There should be a filter where the user can filter this list in the following way.
+- Based on account.
+- Based on income.
+- Based on expense.
+- Based on category.
+- based on date.
