@@ -107,6 +107,12 @@ And join the Nx community:
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
 ---
-Project details
+# Project details.
 
-This is a smart application to handle income and expenses 
+This is a smart application to handle income and expenses.
+
+## Feature modules of this app.
+
+### Summary Module.
+
+This module offers the user to track his income and expenses of the registered accounts. If the user have multiple accounts, whole details can be viewed in a single window.
