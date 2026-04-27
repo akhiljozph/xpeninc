@@ -115,6 +115,10 @@ This is a smart application to handle income and expenses.
 
 ### 1. Module name - Dashboard.
 
+On loading few charts need to be shown on the following expense categories.
+- Pie chart on expenses.
+- Bar chart for comparing with previous month.
+
 ### 2. Module name - Summary.
 
 This module offers the user to track his income and expenses of the registered accounts. If the user have multiple accounts, whole details can be viewed in a single window.
@@ -133,4 +137,6 @@ There should be a filter where the user can filter this list in the following wa
 - based on date.
 
 ### 3. Module name - Expense Planner.
+
+### 4. Module name - Portfolio.
 
