@@ -140,3 +140,7 @@ There should be a filter where the user can filter this list in the following wa
 
 ### 4. Module name - Portfolio.
 
+On initial load a whole list of investment should be shown.
+
+Sub tabs should be there for multiple portfolios.
+
